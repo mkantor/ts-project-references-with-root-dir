@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "composite": true,
+    "module": "NodeNext",
+    "outDir": "dist",
+    "rootDir": "src",
+    "strict": true,
+    "target": "ES2020"
+  },
+  "include": ["src/**/*.ts"],
+  "references": [{ "path": "../lib/tsconfig.json" }]
+}
